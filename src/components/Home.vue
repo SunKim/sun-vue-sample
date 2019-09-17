@@ -28,6 +28,9 @@
       <li>
         <a href="/#/MixinTest">Mixin test, Custom Directive</a>
       </li>
+      <li>
+        <a href="/#/VuexTest">Vuex test (state, getters, mutations, acitons)</a>
+      </li>
     </ul>
   </div>
 </template>

@@ -66,6 +66,11 @@ export default new Router({
       path: '/MixinTest',
       name: 'MixinTest',
       component: () => import('@/components/MixinTest.vue').then(console.log('MixinTest.vue(Async Component) is dynamically loaded - from Router'))
+    },
+    {
+      path: '/VuexTest',
+      name: 'VuexTest',
+      component: () => import('@/components/VuexTest.vue').then(console.log('VuexTest.vue(Async Component) is dynamically loaded - from Router'))
     }
   ]
 })

@@ -21,6 +21,7 @@
       <li><router-link v-bind:to="{ name: 'Test5' }">Test5</router-link></li>
       <li><router-link v-bind:to="{ name: 'TransitionTest' }">TransitionTest</router-link></li>
       <li><router-link v-bind:to="{ name: 'MixinTest' }">MixinTest</router-link></li>
+      <li><router-link v-bind:to="{ name: 'VuexTest' }">VuexTest</router-link></li>
     </ul>
 
     <hr />
